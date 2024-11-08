@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Catálogo de Vídeos - MC IG</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .video-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px 0;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        .video {
+            width: 100%;
+            max-width: 600px;
+            margin-bottom: 10px;
+        }
+        .video-title {
+            font-size: 1.2em;
+            color: #333;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Catálogo de Vídeos - MC IG</h1>
+
+    <div class="video-container">
+        <iframe class="video" 
+                src="https://www.youtube.com/embed/pLOWZfLqAaA" 
+                title="MC IG - Lançamento" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        <div class="video-title">MC IG - Lançamento</div>
+    </div>
+
+    <div class="video-container">
+        <iframe class="video" 
+                src="https://www.youtube.com/embed/lDsPz_SBYnU" 
+                title="MC IG - Outra Música" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen></iframe>
+        <div class="video-title">MC IG - Outra Música</div>
+    </div>
+
+</body>
+</html>
